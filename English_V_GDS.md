@@ -1,4 +1,4 @@
-# Game-Data-Structure (更新中) / [English_V_GDS](https://github.com/shajieChen/Game-Data-Structure/English_V_GDS.md)
+# Game-Data-Structure (更新中) / [English_V]
  ------
  大学很快过去了，一直觉得自己的学校就是一个巨大的坑钱项目</br>
  作为一个软件工程的学生居然把所有的主流语言都学过了，自己出来社会和社会上磨砺的竞争力差了很多</br>
