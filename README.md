@@ -1,5 +1,5 @@
 # Game-Data-Structure (更新中) / [English](https://github.com/shajieChen/Game-Data-Structure/blob/master/English_V_GDS.md)
- ------
+====
  大学很快过去了，一直觉得自己的学校就是一个巨大的坑钱项目</br>
  作为一个软件工程的学生居然把所有的主流语言都学过了，自己出来社会和社会上磨砺的竞争力差了很多</br>
  可是我是一个尽自己努力想做到最好的人，所以课程上面都想拿HD，导致自己在喜欢的游戏开发上面没投入很多时间（苦笑）</br>
@@ -19,20 +19,20 @@
 - [x] 支持回调函数
 - [x] 增删遍历
 思路图：</br>
-#### 简单来说，这个是以帧为驱动，Timer所处的特定帧(用Timer.Duration推算出)区域范围，TimeList进行遍历。
+>>#### 简单来说，这个是以帧为驱动，Timer所处的特定帧(用Timer.Duration推算出)区域范围，TimeList进行遍历。
 
-![思路图](https://github.com/shajieChen/Game-Data-Structure/blob/master/ClassGraph/timerList_结构图.png) 
+>>>![思路图](https://github.com/shajieChen/Game-Data-Structure/blob/master/ClassGraph/timerList_结构图.png) 
 
-解决方案图： </br>
-![解决方案图](https://github.com/shajieChen/Game-Data-Structure/blob/master/ClassGraph/TimerList_解析.png) 
+>>解决方案图： </br>
+>>>![解决方案图](https://github.com/shajieChen/Game-Data-Structure/blob/master/ClassGraph/TimerList_解析.png) 
 
-![解决方案图](https://github.com/shajieChen/Game-Data-Structure/blob/master/ClassGraph/Timer_解析.png) 
+>>>![解决方案图](https://github.com/shajieChen/Game-Data-Structure/blob/master/ClassGraph/Timer_解析.png) 
 
-伪代码： </br>
-![伪代码](https://github.com/shajieChen/Game-Data-Structure/blob/master/ClassGraph/timer_伪代码.png) 
-自己遇到的问题： </br> 
-1. 精度问题，一开始我的hashTable设定很小，这导致了之后要不断的查找UrgentTimer(麻烦且不可控)</br>
-   解决方法，HashTable扩大到很大范围 但是要小于Int.MaxValue, 并且Int.MaxValue 用于判断不正确的timer</br> 
+>>伪代码： </br>
+>>>![伪代码](https://github.com/shajieChen/Game-Data-Structure/blob/master/ClassGraph/timer_伪代码.png) 
+>>自己遇到的问题： </br> 
+>>>1. 精度问题，一开始我的hashTable设定很小，这导致了之后要不断的查找UrgentTimer(麻烦且不可控)</br>
+>>>   解决方法，HashTable扩大到很大范围 但是要小于Int.MaxValue, 并且Int.MaxValue 用于判断不正确的timer</br> 
 ## 事件管理器
 ### 事件管理器的实现[Todo 列表]
 思路图：</br>
