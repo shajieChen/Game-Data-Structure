@@ -20,7 +20,7 @@
 - [x] 增删遍历
 </br>
 思路图：</br>
-      '简单来说，这个是以帧为驱动，Timer所处的特定帧(用Timer.Duration推算出)区域范围，TimeList进行遍历。'</br>
+#### 简单来说，这个是以帧为驱动，Timer所处的特定帧(用Timer.Duration推算出)区域范围，TimeList进行遍历。
 ![思路图](https://github.com/shajieChen/Game-Data-Structure/blob/master/ClassGraph/timerList_结构图.png) 
 解决方案图： </br>
 ![解决方案图](https://github.com/shajieChen/Game-Data-Structure/blob/master/ClassGraph/TimerList_解析.png) 
